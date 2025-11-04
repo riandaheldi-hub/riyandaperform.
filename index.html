@@ -1,0 +1,189 @@
+<!--
+File: index.html
+Project: "Terbiasa salah, dikira benar" — Single-file dark elegant website
+Author: Generated for Riyanda albert
+Instructions:
+  1) Replace the UTTERANCES_REPO placeholder in the <script> element below with your GitHub repo in the form "username/repo" to enable comments via utterances (GitHub Issues as comments).
+  2) To publish the site for everyone: create a GitHub repo, add this file as index.html, then deploy with Netlify or Vercel (or GitHub Pages). If you want, I can provide exact step-by-step commands.
+  3) If you prefer another comment system (Disqus, Firebase, Supabase), tell me and I will adapt the file.
+-->
+
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Terbiasa salah, dikira benar — Riyanda albert</title>
+  <meta name="author" content="Riyanda albert">
+  <meta name="description" content="Essay: Beberapa pemikiran salah yang sudah kita anggap benar selama ini">
+  <style>
+    /* Dark elegant minimal styles */
+    :root{
+      --bg:#0b0d10;
+      --panel:#0f1113;
+      --muted:#9aa1a6;
+      --accent:#8ab4ff;
+      --glass: rgba(255,255,255,0.03);
+      --radius:14px;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    html,body{height:100%;}
+    body{
+      margin:0;background:linear-gradient(180deg, var(--bg), #070708 60%);
+      color:#e6eef8;line-height:1.65;-webkit-font-smoothing:antialiased;padding:32px;display:flex;justify-content:center;align-items:flex-start;
+    }
+    .container{max-width:920px;width:100%;}
+    header{display:flex;gap:16px;align-items:center;margin-bottom:18px}
+    .logo{background:linear-gradient(135deg,#22334444,#11223322);padding:12px;border-radius:12px;display:flex;flex-direction:column}
+    .logo h1{margin:0;font-size:18px;letter-spacing:0.2px}
+    .meta{color:var(--muted);font-size:13px}
+    main{background:linear-gradient(180deg,var(--panel), rgba(12,14,16,0.9));padding:28px;border-radius:var(--radius);box-shadow:0 8px 30px rgba(0,0,0,0.6);}
+    article h2{margin-top:0;font-size:26px}
+    .byline{color:var(--muted);margin-bottom:12px}
+    p{color:#dce8f8;margin-bottom:14px}
+    .section-title{margin-top:18px;margin-bottom:10px;color:var(--accent);font-weight:600}
+    nav{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px;margin-bottom:18px}
+    .pill{background:var(--glass);padding:6px 10px;border-radius:999px;font-size:13px;color:var(--muted);border:1px solid rgba(255,255,255,0.03)}
+    footer{margin-top:18px;color:var(--muted);font-size:13px;display:flex;justify-content:space-between;align-items:center}
+    .controls{display:flex;gap:10px}
+    button{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:8px 12px;border-radius:10px;color:inherit;cursor:pointer}
+    button:active{transform:translateY(1px)}
+    .toc{margin-top:18px;padding:12px;background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.02));border-radius:12px}
+    .toc h3{margin:0 0 8px 0;font-size:14px;color:var(--muted)}
+    .toc a{display:block;color:var(--muted);text-decoration:none;margin:6px 0}
+    /* Comments area / utterances placeholder */
+    #comments{margin-top:24px}
+    /* Responsive */
+    @media (max-width:720px){body{padding:18px}.container{padding:0}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <h1>Terbiasa salah, dikira benar</h1>
+        <div class="meta">Penulis: <strong>Riyanda albert</strong></div>
+      </div>
+      <div style="flex:1"></div>
+      <div class="controls">
+        <button id="toggleTheme">Toggle theme</button>
+        <button id="copyLink">Copy share text</button>
+      </div>
+    </header>
+
+    <main>
+      <article id="essay">
+        <h2>Beberapa pemikiran salah yang sudah kita anggap benar selama ini</h2>
+        <div class="byline">Sisi-sisi reflektif — Essai</div>
+
+        <p class="section-title">Sisi paradigmatis</p>
+        <p>Mungkin ini adalah hal yang sangat fundamental bagi kita, tapi penulis ingin sedikit beretorika, dan tentunya juga dengan sedikit metafor, penulis lebih ingin hal ini tidak terlalu asing bagi kamu sebagai pembaca, sebab itu penulis hanya membuatkannya dengan perumpamaan.</p>
+
+        <p>Coba deh kita bikin analogi tentang “buang sampah” agar lebih sederhana dan mudah dipahami. Tentu saja “membuang sampah ke tong sampah” itu adalah hal yang benar, tapi itu adalah pernyataan yang tidak lengkap, jika kita lihat dari sudut pandang yang lebih luas, itu masih bisa dibantah dengan berbagai argumen. Tong sampah mempunyai beberapa jenis, kita sebut saja ada yang hanya untuk sampah medis dan ada juga yang non medis, namun disaat kita membuang sampah ditempat sampah (yang tidak sesuai dengan sampah yang kita buang), itu akan sangat membahayakan pekerja limbah), coba deh bayangin, ketika seorang tenaga medis membuang sampah suntikan bekas orang HIV di tempat yang salah, dan ketika pekerja limbah gasengaja ke injak, dan pekerja limbah yang malang akan tertular penyakit yang obatnya belum ditemukan itu.</p>
+
+        <p>Artinya apa? Kita mempunyai sisi paradigma yang berbeda, bahkan bahasa pun kadang mempunyai kosakata yang sama dan arti yang berbeda, dan balik lagi, kita menggunakan kosakata itu di saat yang seperti apa?.</p>
+
+        <p class="section-title">Sisi doktrinasi</p>
+        <p>Di jepang pernah adanya keberadaan organisasi Yakuza yang sudah sangat terkenal akan kejahatannya. Mereka melakukan perjudian, perdagangan obat terlarang, perdagangan manusia, bahkan juga membunuh. Tapi untuk saat sekarang ini jumlah mereka sudah menurun, kegiatan kejahatan mereka sekarang lebih ke kejahatan cybercrime. Tapi kita tidak membahas secara menyeluruh tentang Yakuza, kita lihat dari sisi identitasnya, yang tiap anggota dapat dipastikan memiliki tatto sebagai identitas anggota. Jika kita tarik konteks itu ke Indonesia, mungkin lebih mirip juga seperti mayoritas pelaku pelaku kriminal jaman dulu yang ada di indonesia. Pada saat rezim Soeharto, kita sering mendengar istilah Petrus (penembak misterius). Petrus adalah sebuah kelompok yang dibentuk pemerintah pada saat itu untuk memburu pelaku kriminal, disaat ada orang atau sekelompok orang yang masih dicurigai sebagai pelaku kriminal, maka akan ditembak secara diam-diam oleh sekelompok Petrus itu.</p>
+
+        <p>Bagaimana cara Petrus menentukan orang itu kriminal atau bukan? Salah satunya adalah hanya dengan melihat tubuhnya bertato atau tidak, sebegitu kejamnya rezim saat itu. Sejak saat itu pandangan masyarakat akan orang yang bertatto menjadi negatif. Semakin lama masyarakat pun mulai menganggap bahwa orang yang mempunyai tatto itu adalah pelaku kriminal dan minimal pernah melakukan tindak kejahatan dan bahkan sampai sekarang doktrinisasi sangat dangkal itu masih ada.</p>
+
+        <p>Kadang kita memang sudah tau pemikiran seperti itu, tapi kadang kita hanya sembarang ngomong dengan segala kekosongan dan kedangkalan untuk memperkuat pemikiran seperti itu benar adanya.</p>
+
+        <p class="section-title">Sisi standarisasi</p>
+        <p>Pada saat penulis bekerja di suatu perkantoran yang ada di jakarta, penulis sering diskusi terkait pekerjaan dan juga hal hal random dengan ex. Managernya penulis. Perlu diketahui beliau seorang kristiani yang taat. Suatu waktu ada percakapan yang cukup sensitif mengenai agama.</p>
+
+        <p>Kira-kira beginilah percakapannya: <br><em>M. Bagaimana pendapat kamu tentang, seseorang yang menikah dengan perempuan yang umurnya masih 6 tahun dan menyetubui perempuan itu saat usia 9 tahun, Bukankah itu bisa kita sebut dengan pelecehan dibawah umur? <br>P. Tentu, itu sudah sangat jelas tidak baik dan akan berdampak besar dengan kesehatan dan keturunan <br>M. Lalu, bagaimana dengan tokoh utama dalam agama kamu, nabi Muhammad? Yang telah menikah dengan anak kecil yang umurnya masih 6 tahun, lalu disetubuhi saat usia 9 tahun. Bukankah beliau adalah tokoh yang sangat penting dan patut dicontoh di agama kalian ? <br>P. Sebelumnya perlu diketahui dulu pak, setiap zaman ada standarnya. Contoh standarisasi dalam dunia medis, zaman sekarang kenapa hal itu tidak layak? Karna para ahli dan dokter-dokter ahli sudah menemukan tentang apa pengaruh dari hal yang seperti itu. Mereka pun mengetahui dan menemukan fakta itu juga melalui ilmu pengetahuan kedokteran yang sudah canggih. Dan kenapa saat zaman nabi Muhammad hal seperti itu bisa dikatakan biasa saja? Karna dulu ilmu kedokteran belum semaju sekarang, sehingga informasi dan pengetahuan akan tidak baiknya melakukan hubungan seksual di bawah usia 18 tahun itu belum ada.</em></p>
+
+        <p>Terdapat hal yang sangat konklusif dari percakapan diatas. Sebenarnya itu suatu penyimpangan pikiran yang sangat perlu di luruskan. Kita akan dibuat tersesat jika kita tidak menganalis terlebih dahulu informasi yang kita dapatkan, begitu juga pemikiran kita akan standarisasi.</p>
+
+        <p class="section-title">Sisi sugesti</p>
+        <p>Seorang dokter bernama Dr. Schneider bekerja di sebuah rumah sakit kecil yang sering menangani pasien dengan keluhan nyeri ringan, stres, hingga sakit kepala kronis. Suatu hari, dia memutuskan untuk melakukan eksperimen sederhana demi memahami lebih dalam tentang kekuatan sugesti dan pikiran manusia dalam proses penyembuhan.</p>
+
+        <p>Dr. Schneider mengumpulkan sekelompok pasien yang sering mengeluh sakit kepala dan kelelahan. Ia menjelaskan bahwa ia akan memberikan “obat baru” yang telah berhasil menyembuhkan banyak orang dan sedang diuji untuk mendapatkan izin resmi. Pasien-pasien itu merasa lega dan bersemangat untuk mencoba obat yang dianggap “revolusioner” tersebut. Namun, kenyataannya, obat itu hanyalah permen biasa, sama sekali tidak mengandung bahan medis. Yang menarik, beberapa hari kemudian, hampir semua pasien melapor bahwa sakit kepala mereka telah berkurang atau bahkan hilang sepenuhnya.</p>
+
+        <p>Dr. Schneider kemudian mengungkapkan bahwa mereka tidak mengonsumsi obat medis sama sekali. Yang terjadi sebenarnya adalah reaksi tubuh mereka terhadap keyakinan bahwa obat itu benar-benar dapat menyembuhkan. Fenomena ini dikenal sebagai efek placebo, di mana sugesti positif dan keyakinan seseorang dapat memengaruhi kesehatan fisik mereka.</p>
+
+        <p>Begitu juga dengan orang-orang yang masih percaya berobat dengan dukun. Mereka hanya tersugesti, dan memang kadang sebuah sugesti akan kepercayaan itu sangat mempengaruhi keadaan. Akan tetapi, sampai kapan kita mau dibodohkan dengan pemikiran seperti itu?</p>
+
+        <p><strong>“memang moralmu bagus sehingga kamu masuk surga, kendati moralmu bagus, cara berfikirmu buruk. Moral dibatalkan oleh baik atau buruk perilaku seseorang, estetika dibatalkan oleh bagus atau jelek, cara berfikir dibatalkan oleh masuk akal atau tidak masuk akal”</strong><br><em>- Rg.</em></p>
+
+        <p class="section-title">Sisi normalisasi</p>
+        <p>Kita sadar ga sih, sepanjang tahun kita hidup, kadang ada aja gebrakan baru yang telah kita atau orang lain alami, mau itu dalam segi negatif ataupun positif. Disini penulis mengajak pembaca untuk merenung lebih dalam dan lebih jauh lagi. Kalau pembaca essay ini adalah gen Millenial ataupun gen Z, pasti tau seperti apa perubahan yang telah memposisikan kita saat sekarang ini. Tentunya kita masih ingat saat zaman sekolahan dibawah tahun 2012 an, ketika teman kita di cie cie in, terus saling malu malu kalo deket cewe, dan bahkan pernah berfikir hanya dengan nyentuh cewe, itu bisa membuat hamil. Sebenarnya penulis menulis ini sambil membayangkan momen-momen itu, tapi kali ini penulis tidak membawa pembaca untuk membahas itu lebih dalam, kali ini kita fokus membayangkan momen-momen itu dalam perspektif yang berbeda. Dulu mayoritas cewe sangat menjaga kehormatannya. Yaa mungkin dikarnakan beberapa faktor juga si. Tapi sebenarnya itu semua kembali ke pribadi kita sendiri, bagaimana kualitas kita sebagai manusia saat menerima perkembangan teknologi. Tapi betapa miris dan tragisnya pada saat sekarang ini, orang-orang pacaran bahkan hanya sekedar dekat bisa sampai membuat hal yang mestinya tidak layak ditulis disini.</p>
+
+        <p>Sudah tau kan, kualitas masyarakat kita? Hanya dengan perkembangan teknologi, kita tidak sadar akan kekalahan kita dengan sesuatu yang diciptakan oleh manusia itu sendiri. Selama beberapa dekade, culture dan etis kita berubah 180 derajat.</p>
+
+        <p>Oke, kita lupakan dulu soal etis, kita coba lihat dari sudut pandang yang berbeda. Dulu pengalaman penulis saat bekerja di suatu perusahaan di Jakarta, pernah beberapa kali penulis menerima kerjaan yang mungkin itu sudah diluar jobdesk, bahkan seharusnya pulang jam 16.00, hal itu membuat penulis pulang jam 18.00. Suatu waktu, penulis mendapatkan situasi yang sama, akan tetapi mencoba untuk tetap pulang tepat waktu. Memang hal itu tidak dipermasalahkan, tetapi jika kita diposisi itu, kebanyakan dari kita pasti akan merasa bersalah karna sudah tidak menghiarukan perintah atasan, tapi jika hal itu selalu berkelanjutan, itu akan menjadi rasa yang biasa dan akhirnya akan menjadi suatu yang normal, dan jika sudah menjadi sesuatu yang normal, maka secara implisit itu akan menjadi hal yang wajib kita lakukan, dan juga akan menjadi ketentuan yang tertulis, dan akhirnya ternormalisasi.</p>
+
+      </article>
+
+      <div class="toc">
+        <h3>Bagian</h3>
+        <a href="#essay">Seluruh esai</a>
+        <a href="#comments">Komentar</a>
+      </div>
+
+      <div id="comments">
+        <h3 style="margin-bottom:8px">Komentar</h3>
+        <!-- Utterances: GitHub issues based comments. Replace 'UTTERANCES_REPO' with "username/repo" -->
+        <div id="utterances-container"></div>
+      </div>
+
+      <footer>
+        <div>© <strong>Riyanda albert</strong></div>
+        <div class="meta">Desain: Dark journal — generated</div>
+      </footer>
+    </main>
+
+  </div>
+
+  <script>
+    // --- Simple UI interactions ---
+    document.getElementById('toggleTheme').addEventListener('click', ()=>{
+      document.body.classList.toggle('light-mode');
+      if(document.body.classList.contains('light-mode')){
+        document.documentElement.style.setProperty('--bg','#f7f9fc');
+        document.documentElement.style.setProperty('--panel','#ffffff');
+        document.documentElement.style.setProperty('--muted','#566069');
+        document.documentElement.style.setProperty('--accent','#0b5cff');
+        document.documentElement.style.setProperty('--glass','rgba(0,0,0,0.04)');
+        document.documentElement.style.setProperty('color-scheme','light');
+      } else {
+        document.documentElement.style.setProperty('--bg','#0b0d10');
+        document.documentElement.style.setProperty('--panel','#0f1113');
+        document.documentElement.style.setProperty('--muted','#9aa1a6');
+        document.documentElement.style.setProperty('--accent','#8ab4ff');
+        document.documentElement.style.setProperty('--glass','rgba(255,255,255,0.03)');
+        document.documentElement.style.removeProperty('color-scheme');
+      }
+    });
+
+    document.getElementById('copyLink').addEventListener('click', ()=>{
+      const text = `"Terbiasa salah, dikira benar" — esai oleh Riyanda albert. Baca: ${location.href}`;
+      navigator.clipboard?.writeText(text).then(()=>{
+        alert('Teks share disalin ke clipboard. Anda bisa menempel di chat/social.');
+      }).catch(()=>{alert('Gagal salin otomatis — silakan blok dan salin manual.')});
+    });
+
+    // --- Utterances loader (comments) ---
+    (function loadUtterances(){
+      const repo = 'UTTERANCES_REPO'; // <-- REPLACE this with: username/repo
+      if(repo === 'UTTERANCES_REPO'){
+        const node = document.createElement('div');
+        node.innerHTML = '<div style="color:var(--muted)">Untuk mengaktifkan komentar: buka file ini dan ganti string <code>UTTERANCES_REPO</code> dengan GitHub repositori Anda (format: username/repo). Komentar menggunakan Utterances (GitHub Issues). Jika butuh, saya bantu langkahnya).</div>';
+        document.getElementById('utterances-container').appendChild(node);
+        return;
+      }
+      const script = document.createElement('script');
+      script.src = 'https://utteranc.es/client.js';
+      script.async = true;
+      script.crossOrigin = 'anonymous';
+      script.setAttribute('repo', repo);
+      script.setAttribute('issue-term', 'pathname');
+      script.setAttribute('theme', 'github-dark');
+      document.getElementById('utterances-container').appendChild(script);
+    })();
+  </script>
+</body>
+</html>
+add index.html
